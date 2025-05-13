@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TopMyst - Setting new trends</title>
+    <title>星辰科技 - 创新点亮未来</title>
     <style>
         /* 全局样式 */
         * {
@@ -234,7 +234,80 @@
             color: #4cc9f0;
         }
         
-    
+        /* 联系我们 */
+        .contact {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .contact-container {
+            display: flex;
+            gap: 50px;
+        }
+        
+        .contact-info {
+            flex: 1;
+        }
+        
+        .contact-info h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #1a1a2e;
+        }
+        
+        .contact-info p {
+            margin-bottom: 15px;
+        }
+        
+        .contact-info i {
+            color: #4cc9f0;
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .contact-form {
+            flex: 1;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .form-group textarea {
+            height: 150px;
+        }
+        
+        .submit-btn {
+            background-color: #4cc9f0;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #3aa8d8;
+        }
+        
         /* 页脚 */
         footer {
             background-color: #1a1a2e;
@@ -343,14 +416,14 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <img src="https://via.placeholder.com/40x40" alt="TopMyst">
-                    <span>TopMyst</span>
+                    <img src="https://via.placeholder.com/40x40" alt="星辰科技Logo">
+                    <span>星辰科技</span>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#products">产品中心</a></li>
+                    <li><a href="#contact">联系我们</a></li>
                 </ul>
             </nav>
         </div>
@@ -360,9 +433,9 @@
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <h1>Innovative Entertainment</h1>
-                <p>TopMyst is committed to providing high-quality toys to customers around the world, so that children can grow up with fun!</p>
-                <a href="#products" class="btn">Explore Products</a>
+                <h1>创新科技，点亮未来</h1>
+                <p>星辰科技致力于为全球客户提供最前沿的智能科技产品和解决方案，让科技改变生活。</p>
+                <a href="#products" class="btn">探索产品</a>
             </div>
         </div>
     </section>
@@ -370,14 +443,15 @@
     <!-- 关于我们 -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">About TopMyst</h2>
+            <h2 class="section-title">关于星辰科技</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>TopMyst is a toy company that specializes in healthy entertainment for kids. We have a team of experienced engineers and designers dedicated to creating innovative and fun toys.</p>
-                                        <p>Our mission is to "bring more happiness to children" and our vision is to be the leading toy brand in the world.</p>
+                    <p>星辰科技成立于2015年，是一家专注于智能硬件和物联网技术研发的高科技企业。我们拥有一支由资深工程师和设计师组成的团队，致力于打造创新、实用、美观的科技产品。</p>
+                    <p>公司总部位于上海，在北京、深圳和硅谷设有研发中心，产品销往全球30多个国家和地区。我们始终坚持以用户需求为导向，以技术创新为动力，为客户提供卓越的产品体验。</p>
+                    <p>我们的使命是"用科技创造美好生活"，愿景是成为全球领先的智能科技品牌。</p>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="TopMyst Office">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="星辰科技办公室">
                 </div>
             </div>
         </div>
@@ -386,7 +460,7 @@
     <!-- 产品展示 -->
     <section class="products" id="products">
         <div class="container">
-            <h2 class="section-title">Our Products</h2>
+            <h2 class="section-title">我们的产品</h2>
             <div class="product-grid">
                 <!-- 产品1 -->
                 <div class="product-card">
@@ -439,32 +513,78 @@
         </div>
     </section>
 
-   
+    <!-- 联系我们 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 上海市浦东新区张江高科技园区星辰大厦18楼</p>
+                    <p><i class="fas fa-phone"></i> 400-888-8888</p>
+                    <p><i class="fas fa-envelope"></i> info@startech.com</p>
+                    <p><i class="fas fa-clock"></i> 周一至周五: 9:00 - 18:00</p>
+                    
+                    <h3 style="margin-top: 30px;">关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">电话</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 页脚 -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>About TopMyst</h3>
-                    <p>TopMyst is committed to providing high-quality toys to customers around the world, so that children can grow up with fun!</p>
+                    <h3>关于星辰</h3>
+                    <p>星辰科技致力于为全球客户提供最前沿的智能科技产品和解决方案，让科技改变生活。</p>
                 </div>
                 <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <p><a href="#home" style="color: white; text-decoration: none;">Home page</a></p>
-                    <p><a href="#about" style="color: white; text-decoration: none;">About us</a></p>
-                    <p><a href="#products" style="color: white; text-decoration: none;">Product Center</a></p>
-                   
+                    <h3>快速链接</h3>
+                    <p><a href="#home" style="color: white; text-decoration: none;">首页</a></p>
+                    <p><a href="#about" style="color: white; text-decoration: none;">关于我们</a></p>
+                    <p><a href="#products" style="color: white; text-decoration: none;">产品中心</a></p>
+                    <p><a href="#contact" style="color: white; text-decoration: none;">联系我们</a></p>
                 </div>
                 <div class="footer-column">
-                    <h3>Subscribe to us</h3>
-                  
+                    <h3>订阅我们</h3>
+                    <p>订阅我们的新闻通讯，获取最新产品信息和优惠活动。</p>
                     <div class="form-group" style="margin-top: 15px;">
-                                         </div>
+                        <input type="email" placeholder="您的邮箱地址" style="width: 100%; padding: 10px; border-radius: 5px; border: none;">
+                    </div>
                 </div>
             </div>
             <div class="copyright">
-                           </div>
+                <p>&copy; 2023 星辰科技. 保留所有权利.</p>
+            </div>
         </div>
     </footer>
 </body>
