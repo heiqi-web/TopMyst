@@ -234,7 +234,80 @@
             color: #4cc9f0;
         }
         
-    
+        /* 联系我们 */
+        .contact {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .contact-container {
+            display: flex;
+            gap: 50px;
+        }
+        
+        .contact-info {
+            flex: 1;
+        }
+        
+        .contact-info h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #1a1a2e;
+        }
+        
+        .contact-info p {
+            margin-bottom: 15px;
+        }
+        
+        .contact-info i {
+            color: #4cc9f0;
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .contact-form {
+            flex: 1;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .form-group textarea {
+            height: 150px;
+        }
+        
+        .submit-btn {
+            background-color: #4cc9f0;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #3aa8d8;
+        }
+        
         /* 页脚 */
         footer {
             background-color: #1a1a2e;
@@ -374,8 +447,8 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>TopMyst is a toy company that specializes in healthy entertainment for kids. We have a team of experienced engineers and designers dedicated to creating innovative and fun toys.</p>
-                                        <p>Our mission is to "bring more happiness to children" and our vision is to be the leading toy brand in the world.</p>
-                </div>
+                    <p>Our mission is to "bring more happiness to children" and our vision is to be the leading toy brand in the world.</p>
+                                 </div>
                 <div class="about-image">
                     <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="TopMyst Office">
                 </div>
@@ -439,7 +512,49 @@
         </div>
     </section>
 
-   
+    <!-- 联系我们 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact details</h3>
+                   
+                    <p><i class="fas fa-envelope"></i> haihua@topmyst.cn</p>
+                   
+                    <h3 style="margin-top: 30px;">Follow us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Sent</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 页脚 -->
     <footer>
@@ -453,18 +568,20 @@
                     <h3>Quick Links</h3>
                     <p><a href="#home" style="color: white; text-decoration: none;">Home page</a></p>
                     <p><a href="#about" style="color: white; text-decoration: none;">About us</a></p>
-                    <p><a href="#products" style="color: white; text-decoration: none;">Product Center</a></p>
-                   
+                    <p><a href="#products" style="color: white; text-decoration: none;">Product center</a></p>
+                    <p><a href="#contact" style="color: white; text-decoration: none;">Contact us</a></p>
                 </div>
                 <div class="footer-column">
                     <h3>Subscribe to us</h3>
-                  
+                    <p>Subscribe to our newsletter for the latest product information and special offers.</p>
                     <div class="form-group" style="margin-top: 15px;">
-                                         </div>
+                        <input type="email" placeholder="Your e-mail address" style="width: 100%; padding: 10px; border-radius: 5px; border: none;">
+                    </div>
                 </div>
             </div>
             <div class="copyright">
-                           </div>
+                <p>&copy; 2025 TopMyst.</p>
+            </div>
         </div>
     </footer>
 </body>
