@@ -416,7 +416,7 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <img src="https://via.placeholder.com/40x40" alt="TopMyst">
+                    <img src="(http://tiebapic.baidu.com/tieba/pic/item/8694a4c27d1ed21b9203eacaeb6eddc450da3fd3.jpg?tbpicau=2025-05-15-05_61c7d28121cf4cdcba8384a2b41bdd17)" alt="TopMyst">
                     <span>TopMyst</span>
                 </div>
                 <ul class="nav-links">
