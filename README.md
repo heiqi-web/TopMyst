@@ -464,50 +464,40 @@
                 <!-- 产品1 -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1546054454-aa26e2b734c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="智能手表">
+                        <img src="http://tiebapic.baidu.com/tieba/pic/item/c8177f3e6709c93d0cc5c7d8d93df8dcd10054ee.jpg?tbpicau=2025-05-16-05_853698e5e663599ebf402aa3d990ade3" alt="Wall Climbing Remote Control Car">
                     </div>
                     <div class="product-info">
-                        <h3>星辰智能手表Pro</h3>
-                        <p>全新升级的健康监测系统，支持血氧、心率、睡眠监测，30天超长续航。</p>
-                        <div class="product-price">￥1299</div>
+                        <h3>Wall Climbing Remote Control Car</h3>
+                        <p>This novel remote control cars with aerodynamic design. It can climb steadily on the ground, smooth walls, mirrors, windows, and even on the ceiling.</p>
+                        <div class="product-price">$39.99</div>
                     </div>
                 </div>
                 
                 <!-- 产品2 -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="无线耳机">
+                        <img src="http://tiebapic.baidu.com/tieba/pic/item/64380cd7912397dd884d512b1f82b2b7d0a287ed.jpg?tbpicau=2025-05-16-05_b537188b3e0893d66ab0c2a786c6356f" alt="Camouflage Remote Control Car">
                     </div>
                     <div class="product-info">
-                        <h3>星辰无线耳机Air</h3>
-                        <p>主动降噪技术，Hi-Fi音质，24小时续航，IPX5防水等级。</p>
-                        <div class="product-price">￥799</div>
+                        <h3>Camouflage Remote Control Car</h3>
+                        <p>Unique camouflage pattern with motors up to 20km/h allows you to experience the fun of maneuvering.</p>
+                        <div class="product-price">$39.99</div>
                     </div>
                 </div>
                 
                 <!-- 产品3 -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="智能音箱">
+                        <img src="http://tiebapic.baidu.com/tieba/pic/item/58ee3d6d55fbb2fbb71f913d094a20a44623dcee.jpg?tbpicau=2025-05-16-05_7e22953f3c8bc965d74e603a52cd2a4d" alt="RC Stunt Car">
                     </div>
                     <div class="product-info">
-                        <h3>星辰智能音箱X</h3>
-                        <p>360°环绕音效，AI语音助手，智能家居控制中心。</p>
-                        <div class="product-price">￥599</div>
+                        <h3>RC Stunt Car</h3>
+                        <p>360° flip, no matter how the car is flipped can be played.</p>
+                        <div class="product-price">$29.99</div>
                     </div>
                 </div>
                 
-                <!-- 产品4 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1592155931584-901ac15763e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="智能灯泡">
-                    </div>
-                    <div class="product-info">
-                        <h3>星辰智能灯泡</h3>
-                        <p>1600万色可选，语音控制，定时开关，节能环保。</p>
-                        <div class="product-price">￥129</div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </section>
