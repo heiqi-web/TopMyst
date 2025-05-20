@@ -416,7 +416,7 @@
         <div class="container">
             <nav>
                 <div class="logo">
-                    <img src="http://tiebapic.baidu.com/tieba/pic/item/8694a4c27d1ed21b9203eacaeb6eddc450da3fd3.jpg?tbpicau=2025-05-15-05_61c7d28121cf4cdcba8384a2b41bdd17" alt="TopMyst">
+                    <img src="https://raw.githubusercontent.com/heiqi-web/TopMyst/refs/heads/main/TopMyst_%E5%89%AF%E6%9C%AC.png" alt="TopMyst">
                     <span>TopMyst</span>
                 </div>
                 <ul class="nav-links">
@@ -464,7 +464,7 @@
                 <!-- 产品1 -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="http://tiebapic.baidu.com/tieba/pic/item/0bd162d9f2d3572cf45d55f3cc13632762d0c367.jpg?tbpicau=2025-05-16-05_9de953ca5b990471ac1f8d68ee394343" alt="Wall Climbing Remote Control Car">
+                        <img src="https://github.com/heiqi-web/TopMyst/blob/main/%E7%88%AC%E5%A2%99%E8%BD%A6.jpg?raw=true">
                     </div>
                     <div class="product-info">
                         <h3>Wall Climbing Remote Control Car</h3>
@@ -476,7 +476,7 @@
                 <!-- 产品2 -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="http://tiebapic.baidu.com/tieba/pic/item/7a899e510fb30f24e725252c8e95d143ad4b0366.jpg?tbpicau=2025-05-16-05_43288f1795790356922357ae61172252" alt="Camouflage Remote Control Car">
+                        <img src="https://github.com/heiqi-web/TopMyst/blob/main/%E8%BF%B7%E5%BD%A9%E8%BF%B7%E4%BD%A0%E8%BD%A6.png?raw=true" alt="Camouflage Remote Control Car">
                     </div>
                     <div class="product-info">
                         <h3>Camouflage Remote Control Car</h3>
@@ -488,7 +488,7 @@
                 <!-- 产品3 -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="http://tiebapic.baidu.com/tieba/pic/item/1b4c510fd9f9d72a6ddad932922a2834349bbb67.jpg?tbpicau=2025-05-16-05_8a80572aa5dbf966273ef95fad8fe921" alt="RC Stunt Car">
+                        <img src="https://github.com/heiqi-web/TopMyst/blob/main/%E7%BB%BF%E8%89%B2%E7%BF%BB%E6%BB%9A%E8%BD%A6.jpg?raw=true" alt="RC Stunt Car">
                     </div>
                     <div class="product-info">
                         <h3>RC Stunt Car</h3>
