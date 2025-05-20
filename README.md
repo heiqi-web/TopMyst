@@ -76,7 +76,7 @@
         
         /* 英雄区域 */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://tiebapic.baidu.com/tieba/pic/item/0e2442a7d933c895630b5f54971373f0820200ac.jpg?tbpicau=2025-05-15-05_9166b6a5c5f0e285c451a2b48edaffdb');
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://github.com/heiqi-web/TopMyst/blob/main/Kids%20Happy.jpg?raw=true');
             background-size: cover;
             background-position: center;
             height: 80vh;
